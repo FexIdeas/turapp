@@ -1,0 +1,55 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-request-location-accuracy": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-zeep": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "mx.ferreyra.callnumber": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "senderismo.app.TurismoSJ"
+    }
+  }
+}

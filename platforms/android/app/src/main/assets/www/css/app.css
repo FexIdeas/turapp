@@ -1,0 +1,292 @@
+/* Your app styles here */
+.ios .tabbar-labels .tab-link:not(.tab-link-active) .icon-ios-fill {
+  display: none;
+}
+.ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: bold;
+  src: url("../fonts/Nunito-Bold.ttf");
+}
+
+.leaflet-control-attribution {display:none !important;}
+.highcharts-credits{display:none !important;}
+#temperatura {
+  margin: 10px;
+  color: #001821;
+  font-family: 'Nunito' !important;
+}
+
+.page, .popup{
+  background-color: #f2f2f2 !important;
+
+}
+
+p {
+  font-family: 'Nunito' !important;
+  color: #001821 !important;
+  font-size: 16px;
+}
+
+.tab-link-highlight {
+
+  background-color: #d83559 !important;
+}
+
+.navbar {
+  background-color: #55b9a1 !important;
+}
+
+.toolbar {
+
+  background-color: #55b9a1 !important;
+}
+
+.card {
+  color: #000;
+  background-color: #fff !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+/*noticias cards*/
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding {
+  color: #8e8e93;
+}
+
+.date {
+  color: #001821 !important;
+  font-weight: bold !important;
+}
+#mapid {
+  position: relative;
+  height:250px;
+  padding-left: 1em;
+}
+
+.climaicon {
+
+  margin: 10px;
+  fill: #00AEEF;
+}
+
+.titulonoticia {
+  color: #d83559 !important;
+  font-family: 'Nunito' !important;
+  font-weight: bold; 
+  font-size: 26px !important;
+  /*text-shadow: 2px 2px 5px #000000;*/
+}
+
+.climacard {
+  background-color: #fff;
+
+}
+
+.climatemperatura {
+
+  font-size: 50px !important;
+  color: #0a6ebd;
+}
+
+#climaText {
+  color: #001821 !important;
+  font-family: 'Nunito' !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cardClima {
+
+  text-align: center !important;
+}
+
+#windDirection {
+
+  height: 2em;
+  width: 2em;
+}
+
+.chipClima{
+  width: 20em;
+
+}
+
+.menuPanel {
+
+  background-color: #001821 !important;
+
+}
+
+.item-title{
+
+  color: #f2f2f2 !important;
+  white-space: inherit;
+}
+
+.menuImg {
+
+  height: 2em;
+  width: 2em;
+}
+
+.sidebarNav {
+  background-color: #55b9a1 !important;
+
+}
+
+.menuList {
+  padding-left: 1em !important;
+}
+
+#btnEmergencias {
+
+  height: 20em;
+}
+
+.headerRecomendaciones{
+
+  font-family: 'Nunito';
+  color: #f2f2f2;
+  background-color: #d83559 !important;
+}
+
+#elevChart{
+  height: 250px;
+}
+
+.chipMapa {
+
+  background-color: #55b9a1 !important;
+}
+
+.senderosImg {
+  width: 40vw !important;
+
+}
+
+
+.senderosInfo {
+  height: 40vw !important;
+
+}
+
+
+.chipSendero {
+  background-color: #333 !important;
+  width: 100% !important;
+  height: 20% !important;
+  color: #f2f2f2 !important;
+  font-family: 'Nunito' !important;
+  font-weight: bold;
+  font-size: 10px !important;
+}
+
+
+.welcomescreen-text a{
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.tituloSendero2 {
+  color: #d83559 !important;
+  font-family: 'Nunito' !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+.tituloSendero {
+  color: #FFF !important;
+  font-family: 'Nunito' !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+.headerSenderos {
+  background-color: #5dd1b7;
+  height: auto !important;
+}
+
+.senderoLoader {
+
+  margin-top: 40vh !important;
+  background-color: #f2f2f2 !important;
+  color: #f2f2f2 !important;
+}
+
+.popup-preloader {
+
+  background-color: #55b9a1 !important;
+}
+
+.chipDetalle{
+  font-family: 'Nunito' !important;
+  font-size: 11px !important;
+  width: 100% !important;
+}
+
+.chip-label {
+
+  /* margin-left: 5vw !important; */
+}
+
+.phone, .guianumero {
+
+    color: black !important;
+}
+
+.guiatitulo {
+    color: white !important;
+    font-size: 18px !important;
+}
+
+.btnemergencias {
+    font-family: 'Nunito' !important;
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    background-color: #d83559;
+}
+
+.item-subtitle {
+
+  color: #f2f2f2 !important;
+}
+
+.mapaheader {
+
+  background-color: #55b9a1 !important;
+}
+
+.advertencia {
+
+    color: white !important;
+    background-color: #55b9a1 !important;
+    font-size: 20px !important;
+
+}
+
+.guianombre {
+
+  color: black !important;
+  font-size: 18px !important;
+}
+
+.sectorTitulo{
+  white-space: normal; 
+  font-size: 14px
+}
